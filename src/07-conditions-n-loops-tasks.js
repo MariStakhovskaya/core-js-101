@@ -79,7 +79,7 @@ function getSumBetweenNumbers(n1, n2) {
  * @param {number} a
  * @param {number} b
  * @param {number} c
- * @return {boolean}
+ * @return {bool}
  *
  * @example:
  *   1,2,3    =>  false
@@ -87,8 +87,8 @@ function getSumBetweenNumbers(n1, n2) {
  *   10,1,1   =>  false
  *   10,10,10 =>  true
  */
-function isTriangle(a, b, c) {
-  return (a < b + c && b < a + c && c < a + b);
+function isTriangle(/* a, b, c */) {
+  throw new Error('Not implemented');
 }
 
 
